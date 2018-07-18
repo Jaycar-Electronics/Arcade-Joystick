@@ -28,7 +28,7 @@ There's a lot of arcade emulators out there that can run on many computers inclu
 |Red Button|D9|Grey
 
 ## Downloads
-* [Source code](..)
+* [Source code](http://github.com/duinotech/Arcade-Joystick/archive/master.zip)
 
 ## Software Libraries
 |Library | Author
