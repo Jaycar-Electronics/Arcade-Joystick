@@ -40,11 +40,11 @@ There's a lot of arcade emulators out there that can run on many computers inclu
 ## Assembly
 We built our joystick into a `HB6248` enclosure, which required drilling a number of 28mm holes for the buttons and the joystick shaft, as well as some smaller ones for the joystick mounting screws and for the cable to leave the enclosure. To mount the joystick, we unscrewed the top plate, and then clamped the lid of the box between the body and top plate of the joystick. Because there are so many ways of building this, we will focus on the electronics rather than hardware side of construction. It might pay to test the mechanical build before connecting the electronics, to make sure the wires are long enough and that you don't have to pull it apart after wiring it up.
 
-![](../images/NPI00012a.jpg)
+![](images/NPI00012a.jpg)
 
 The joystick has four microswitches, and each pushbutton has a single microswitch. For each microswitch, we want to connect the COM to GND, and then the N/O tabs are connected to an IO pin on the Leonardo to sense whether the microswitch has been triggered. For the joystick, these are the only two tabs, for the pushbuttons, they are the lower two tabs.
 
-![](../images/NPI00012b.jpg)
+![](images/NPI00012b.jpg)
 
 
 ## Programming
